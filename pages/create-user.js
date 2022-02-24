@@ -1,14 +1,14 @@
 import Head from "next/head";
-import AllUser from "../components/User/AllUser";
+import UserForm from "../components/User/UserForm";
 import styles from "../styles/Home.module.css";
 
-export default function Home() {
+export default function CreateUser() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>All User</title>
+        <title>Create New User</title>
       </Head>
-      <AllUser />
+      <UserForm />
     </div>
   );
 }

@@ -4,6 +4,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #f7eeea;
+  padding-top: 1.5em;
 }
 
 a {
@@ -13,4 +15,26 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  margin: 0 0 1.33em 0;
+  text-align: center;
+}
+
+.whiteContainer {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.MuiTableCell-head {
+  background-color: rgb(255,102,36, 0.8);
+}
+
+.MuiTableRow-root {
+  background-color: #fff;
+}
+.MuiTableRow-root:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.04);
 }
